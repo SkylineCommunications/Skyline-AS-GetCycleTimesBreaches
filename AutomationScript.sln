@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{191727FB-A63F-4D5B-861D-31AFEA279C4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{40AC8914-8B8B-451F-8ADC-C9A1887CC295}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{A70F0811-EDEB-4E2B-9479-2138ECB46B80}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AboutThisFolder.md = Dlls\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{7431EEE7-0328-4281-A53D-A5A295EE4872}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{448B6ECE-CFB9-4E3E-AEF9-1540D6B12006}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{EC827B48-CEF7-45C9-ADE1-CEAF8765CADE}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\AboutThisFolder.md = Documentation\AboutThisFolder.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{C4C5FAB3-5E5F-4BEF-8F4E-1CF835AADC1B}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetSquadBreaches", "GetSquadBreaches", "{98E7D7D8-18CA-452E-B6D8-CDB07D9D05BF}"
+	ProjectSection(SolutionItems) = preProject
+		GetSquadBreaches.xml = GetSquadBreaches.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{09986CDD-4211-487B-8847-BD0BBBDF063E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetSquadBreaches_1", "GetSquadBreaches_1\GetSquadBreaches_1.csproj", "{2E448A00-8D2F-48EC-8FB7-D005EB1A7841}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E448A00-8D2F-48EC-8FB7-D005EB1A7841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E448A00-8D2F-48EC-8FB7-D005EB1A7841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E448A00-8D2F-48EC-8FB7-D005EB1A7841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E448A00-8D2F-48EC-8FB7-D005EB1A7841}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{448B6ECE-CFB9-4E3E-AEF9-1540D6B12006} = {7431EEE7-0328-4281-A53D-A5A295EE4872}
+		{C4C5FAB3-5E5F-4BEF-8F4E-1CF835AADC1B} = {191727FB-A63F-4D5B-861D-31AFEA279C4C}
+		{98E7D7D8-18CA-452E-B6D8-CDB07D9D05BF} = {40AC8914-8B8B-451F-8ADC-C9A1887CC295}
+		{09986CDD-4211-487B-8847-BD0BBBDF063E} = {98E7D7D8-18CA-452E-B6D8-CDB07D9D05BF}
+		{2E448A00-8D2F-48EC-8FB7-D005EB1A7841} = {09986CDD-4211-487B-8847-BD0BBBDF063E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {220B2BE0-E244-4552-9F4D-E8385E7B2849}
+	EndGlobalSection
+EndGlobal
