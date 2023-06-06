@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <DMSScript options="272" xmlns="http://www.skyline.be/automation">
-	<Name>GetSquadBreaches</Name>
+	<Name>GetSquadAgileMetrics</Name>
 	<Description></Description>
 	<Type>Automation</Type>
 	<Author>SKYLINE2\AndreC</Author>
 	<CheckSets>FALSE</CheckSets>
-	<Folder>Cycle Times Tracker</Folder>
+	<Folder>Squad Agile Metrics</Folder>
 
 	<Protocols>
 	</Protocols>
@@ -14,12 +14,6 @@
 	</Memory>
 
 	<Parameters>
-		<ScriptParameter id="1" type="string" values="">
-			<Description>DMAID</Description>
-		</ScriptParameter>
-		<ScriptParameter id="2" type="string" values="">
-			<Description>ELEMENTID</Description>
-		</ScriptParameter>
 	</Parameters>
 
 	<Script>

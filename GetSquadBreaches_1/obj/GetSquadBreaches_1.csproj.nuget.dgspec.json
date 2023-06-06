@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GIT\\Automation\\CycleTimesTrackerAS\\Skyline-AS-GetCycleTimesBreaches\\GetSquadBreaches_1\\GetSquadBreaches_1.csproj": {}
+    "C:\\GIT\\Automation\\Skyline-AS-GetSquadAgileMetrics\\GetSquadBreaches_1\\GetSquadBreaches_1.csproj": {}
   },
   "projects": {
-    "C:\\GIT\\Automation\\CycleTimesTrackerAS\\Skyline-AS-GetCycleTimesBreaches\\GetSquadBreaches_1\\GetSquadBreaches_1.csproj": {
+    "C:\\GIT\\Automation\\Skyline-AS-GetSquadAgileMetrics\\GetSquadBreaches_1\\GetSquadBreaches_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT\\Automation\\CycleTimesTrackerAS\\Skyline-AS-GetCycleTimesBreaches\\GetSquadBreaches_1\\GetSquadBreaches_1.csproj",
+        "projectUniqueName": "C:\\GIT\\Automation\\Skyline-AS-GetSquadAgileMetrics\\GetSquadBreaches_1\\GetSquadBreaches_1.csproj",
         "projectName": "GetSquadBreaches_1",
-        "projectPath": "C:\\GIT\\Automation\\CycleTimesTrackerAS\\Skyline-AS-GetCycleTimesBreaches\\GetSquadBreaches_1\\GetSquadBreaches_1.csproj",
+        "projectPath": "C:\\GIT\\Automation\\Skyline-AS-GetSquadAgileMetrics\\GetSquadBreaches_1\\GetSquadBreaches_1.csproj",
         "packagesPath": "C:\\Users\\AndreC.SKYLINE2\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT\\Automation\\CycleTimesTrackerAS\\Skyline-AS-GetCycleTimesBreaches\\GetSquadBreaches_1\\obj\\",
+        "outputPath": "C:\\GIT\\Automation\\Skyline-AS-GetSquadAgileMetrics\\GetSquadBreaches_1\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -35,11 +35,17 @@
       "frameworks": {
         "net462": {
           "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Skyline.DataMiner.Dev.Automation": {
               "target": "Package",
               "version": "[10.3.6, )"
             },
             "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[1.1.118, )"
             }

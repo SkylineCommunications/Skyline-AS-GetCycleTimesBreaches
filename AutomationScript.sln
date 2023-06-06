@@ -33,7 +33,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analy
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetSquadBreaches", "GetSquadBreaches", "{98E7D7D8-18CA-452E-B6D8-CDB07D9D05BF}"
 	ProjectSection(SolutionItems) = preProject
-		GetSquadBreaches.xml = GetSquadBreaches.xml
+		GetSquadAgileMetrics.xml = GetSquadAgileMetrics.xml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{09986CDD-4211-487B-8847-BD0BBBDF063E}"
