@@ -83,7 +83,7 @@ namespace UserDefinableApiScripts.Examples.ExistingWithEntryPoint
 			{
 				SquadMetrics metrics = new SquadMetrics
 				{
-					Squad = ecsElement.ElementName.Split(' ').LastOrDefault(),
+					Squad = ecsElement.ElementName.Split('-').LastOrDefault().TrimStart().TrimEnd(),
 					Breaches = GetBreaches(engine, ecsElement),
 					TasksProcessed = GetTasksProcessed(engine, ecsElement),
 					OpenBreaches = GetOpenBreaches(engine, ecsElement),
